@@ -1,0 +1,264 @@
+EESchema Schematic File Version 1
+LIBS:SparkFun,SparkFun-Aesthetics,SparkFun-Connectors,SparkFun-Electromechanical,SparkFun-Sensors,mike-temp,.\HTU21D Breakout_-cache-cache
+EELAYER 23 0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title "HTU21D Breakout.sch"
+Date "28 MAR 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 86050 111150 0 3200 ~
+N. Seidle
+Text Notes 57250 -26450 0 2240 ~
+CLEAR BOTH SIDES OF SJ1
+Text Notes 57250 -23250 0 2240 ~
+TO DISABLE I2C PULLUP RESISTORS
+Text Notes -93150 -32850 0 2240 ~
+VCC RANGE: 1.5V TO 3.6V
+Text Notes -13150 34350 0 2240 ~
+7-bit I2C Address is 0x40
+Text Notes -13150 37550 0 2240 ~
+I2C write is 0x80
+Text Notes -13150 40750 0 2240 ~
+I2C read is 0x81
+$Comp
+L C_CAP C1
+U 1 1 5516D5B1
+P -16350 5550
+F 0 "C1" H -14430 9230 2240 0000 L B
+F 1 "0.1uF" H -14431 2830 2240 0000 L B
+	1    -16350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L FRAME_FRAME-LETTER FRAME2
+U 1 1 5516D5B1
+P -150750 120750
+	1    -150750 120750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FRAME_FRAME-LETTER FRAME2
+U 1 1 5516D5B1
+P 34850 120750
+	1    34850 120750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND1
+U 1 1 5516D5B1
+P -16350 15150
+F 0 "GND" H -19550 11950 2240 0000 L B
+	1    -16350 15150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND3
+U 1 1 5516D5B1
+P -3550 8750
+F 0 "GND" H -6750 5550 2240 0000 L B
+	1    -3550 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND4
+U 1 1 5516D5B1
+P -54750 -7250
+F 0 "GND" H -57950 -10450 2240 0000 L B
+	1    -54750 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_M04 JP1
+U 1 1 5516D5B1
+P -80350 -13650
+F 0 "JP1" H -86750 -3090 2240 0000 L B
+	1    -80350 -13650
+	1    0    0    1   
+$EndComp
+$Comp
+L LOGO_LOGO-SFE JP2
+U 1 1 5516D5B1
+P 146850 85550
+	1    146850 85550
+	1    0    0    -1  
+$EndComp
+$Comp
+L FID_FIDUCIAL JP3
+U 1 1 5516D5B1
+P 127650 82350
+	1    127650 82350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FID_FIDUCIAL JP4
+U 1 1 5516D5B1
+P 121250 82350
+	1    121250 82350
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_LOGO-SFE LOGO1
+U 1 1 5516D5B1
+P 134050 85550
+	1    134050 85550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOGO_OSHW-LOGO LOGO2
+U 1 1 5516D5B1
+P 18850 107950
+	1    18850 107950
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+1
+U 1 1 5516D5B1
+P -16350 -7250
+F 0 "3.3V" H -17629 -2770 2240 0000 L B
+	1    -16350 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+3
+U 1 1 5516D5B1
+P 41250 -32850
+F 0 "3.3V" H 39971 -28370 2240 0000 L B
+	1    41250 -32850
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+4
+U 1 1 5516D5B1
+P -54750 -20050
+F 0 "3.3V" H -56029 -15570 2240 0000 L B
+	1    -54750 -20050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_RESISTOR R1
+U 1 1 5516D5B1
+P 31650 -13650
+F 0 "R1" H 26850 -11762 2240 0000 L B
+F 1 "4.7k" H 26850 -17810 2240 0000 L B
+	1    31650 -13650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_RESISTOR R2
+U 1 1 5516D5B1
+P 50850 -13650
+F 0 "R2" H 46050 -11762 2240 0000 L B
+F 1 "4.7k" H 46050 -17810 2240 0000 L B
+	1    50850 -13650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SJ_SOLDERJUMPER_2WAY SJ1
+U 1 1 5516D5B1
+P 41250 -23250
+F 0 "SJ1" V 44289 -20050 2240 0000 L B
+F 1 "" H 44450 -25649 2240 0000 L B
+	1    41250 -23250
+	0    1    1    0   
+$EndComp
+$Comp
+L STANDOFF_STAND-OFF STANDOFF1
+U 1 1 5516D5B1
+P 159650 79150
+	1    159650 79150
+	1    0    0    -1  
+$EndComp
+$Comp
+L STANDOFF_STAND-OFF STANDOFF2
+U 1 1 5516D5B1
+P 159650 88750
+	1    159650 88750
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_HTU21D U1
+U 1 1 5516D5B1
+P 12450 -850
+F 0 "U1" H 2850 6190 2240 0000 L B
+F 1 "HTU21D" H 2850 -10450 2240 0000 L B
+	1    12450 -850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+-350 -4050 -16350 -4050
+Wire Wire Line
+-16350 -4050 -16350 -7250
+Wire Wire Line
+-16350 -850 -16350 -4050
+Connection ~ -16350 -4050
+Wire Wire Line
+41250 -32850 41250 -29650
+Wire Wire Line
+-73950 -16850 -54750 -16850
+Wire Wire Line
+-54750 -16850 -54750 -20050
+Wire Wire Line
+-350 2350 -3550 2350
+Wire Wire Line
+-3550 2350 -3550 5550
+Wire Wire Line
+-350 -850 -3550 -850
+Wire Wire Line
+-3550 -850 -3550 2350
+Connection ~ -3550 2350
+Wire Wire Line
+-16350 11950 -16350 8750
+Wire Wire Line
+-73950 -13650 -54750 -13650
+Wire Wire Line
+-54750 -13650 -54750 -10450
+Wire Wire Line
+34850 -23250 31650 -23250
+Wire Wire Line
+31650 -23250 31650 -20050
+Wire Wire Line
+47650 -23250 50850 -23250
+Wire Wire Line
+50850 -23250 50850 -20050
+Wire Wire Line
+25250 -850 50850 -850
+Wire Wire Line
+50850 -850 50850 -7250
+Wire Wire Line
+50850 -850 57250 -850
+Wire Wire Line
+57250 -850 57250 2350
+Wire Wire Line
+57250 2350 60450 2350
+Connection ~ 50850 -850
+Text Label 60450 2350 0 2240 ~
+SCL
+Wire Wire Line
+-73950 -7250 -70750 -7250
+Wire Wire Line
+-70750 -7250 -70750 -4050
+Wire Wire Line
+-67550 -4050 -70750 -4050
+Text Label -67550 -4050 0 2240 ~
+SCL
+Wire Wire Line
+25250 -4050 31650 -4050
+Wire Wire Line
+31650 -4050 31650 -7250
+Wire Wire Line
+31650 -4050 60450 -4050
+Connection ~ 31650 -4050
+Text Label 60450 -4050 0 2240 ~
+SDA
+Wire Wire Line
+-73950 -10450 -67550 -10450
+Text Label -67550 -10450 0 2240 ~
+SDA
+$EndSCHEMATC
