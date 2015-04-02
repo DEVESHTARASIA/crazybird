@@ -1,8 +1,6 @@
-eeschema (2012-apr-16-27)-stable  >> Creation date: Sun 29 Mar 2015 12:51:58 PM PHT
+eeschema (2012-apr-16-27)-stable  >> Creation date: Sun 29 Mar 2015 09:56:52 PM PHT
 
-#Cmp ( order = Reference ) (with SubCmp)
-| 4.7k       R1          
-| 4.7k       R2          
+#Cmp ( order = Reference )
 | C1         0.1uF       
 | C2         0.1uF       
 | C3         4.7uF       
@@ -11,50 +9,29 @@ eeschema (2012-apr-16-27)-stable  >> Creation date: Sun 29 Mar 2015 12:51:58 PM 
 | C6         2.2nF       
 | C7         0.1uF       
 | C8         10nF        
-| C?         0.1uF       
-| U?         ADXL345     
-| U?         HMC5883L    
-| U?         ITG-3200    
+| C9         0.1uF       
+| R1         4.7k        
+| R2         4.7k        
+| U1         ADXL345     
+| U2         ITG-3200    
+| U3         HMC5883L    
 #End Cmp
 
-#Cmp ( order = Value ) (with SubCmp)
+#Cmp ( order = Value )
 | 0.1.uF       C5        
 | 0.1uF        C1        
 | 0.1uF        C2        
 | 0.1uF        C7        
-| 0.1uF        C?        
+| 0.1uF        C9        
 | 0.22uf       C4        
 | 10nF         C8        
 | 2.2nF        C6        
+| 4.7k         R1        
+| 4.7k         R2        
 | 4.7uF        C3        
-| ADXL345      U?        
-| HMC5883L     U?        
-| ITG-3200     U?        
-| R1           4.7k      
-| R2           4.7k      
+| ADXL345      U1        
+| HMC5883L     U3        
+| ITG-3200     U2        
 #End Cmp
-
-#Global, Hierarchical Labels and PinSheets ( order = Sheet Number ) count = 8
-> SCL                          Global              (Sheet /) pos: 4.300, 3.400
-> SCL                          Global              (Sheet /) pos: 8.550, 3.750
-> SCL                          Global              (Sheet /) pos: 5.350, 5.450
-> SCL                          Global              (Sheet /) pos: 1.200, 1.750
-> SDA                          Global              (Sheet /) pos: 4.300, 3.300
-> SDA                          Global              (Sheet /) pos: 8.550, 3.850
-> SDA                          Global              (Sheet /) pos: 5.350, 5.350
-> SDA                          Global              (Sheet /) pos: 1.200, 1.500
-#End labels
-
-#Global, Hierarchical Labels and PinSheets ( order = Alphab. ) count = 8
-
-> SCL                          Global              (Sheet /) pos: 4.300, 3.400
-> SCL                          Global              (Sheet /) pos: 8.550, 3.750
-> SCL                          Global              (Sheet /) pos: 5.350, 5.450
-> SCL                          Global              (Sheet /) pos: 1.200, 1.750
-> SDA                          Global              (Sheet /) pos: 4.300, 3.300
-> SDA                          Global              (Sheet /) pos: 8.550, 3.850
-> SDA                          Global              (Sheet /) pos: 5.350, 5.350
-> SDA                          Global              (Sheet /) pos: 1.200, 1.500
-#End labels
 
 #End List
