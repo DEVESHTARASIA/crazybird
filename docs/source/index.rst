@@ -6,12 +6,13 @@
 Welcome to Crazybird's documentation!
 =====================================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
+   development
    hardware
+   software
+
 
 
 
