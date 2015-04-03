@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 29 Mar 2015 10:34:11 PM PHT
+EESchema Schematic File Version 2  date Fri 03 Apr 2015 06:51:24 AM PHT
 LIBS:crazybird
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "Crazybird"
-Date "29 mar 2015"
+Date "2 apr 2015"
 Rev "0.1"
 Comp "cybint.io"
 Comment1 ""
@@ -45,101 +45,107 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 2750 2850
+$Sheet
+S 8550 5700 1350 500 
+U 551DC7B4
+F0 "Sensors" 60
+F1 "sensors.sch" 60
+$EndSheet
 Wire Wire Line
-	2750 2600 2750 2950
-Connection ~ 5200 5950
+	2250 3050 2250 3150
+Connection ~ 2900 5550
 Wire Wire Line
-	5200 5850 5200 6250
+	2900 5750 2900 5400
+Connection ~ 2750 3750
 Wire Wire Line
-	5850 5600 5850 5500
-Connection ~ 2250 3550
+	2750 4200 2750 3650
+Connection ~ 8550 3350
 Wire Wire Line
-	2250 3650 2250 3550
+	2400 3550 2100 3550
+Connection ~ 6950 4350
 Wire Wire Line
-	6950 4350 7250 4350
+	7250 3950 6950 3950
+Connection ~ 2250 3150
 Wire Wire Line
-	2100 3150 2400 3150
+	4300 2850 4300 2450
+Connection ~ 2750 3850
 Wire Wire Line
-	6950 4350 6950 4600
+	4700 4000 4700 3200
 Wire Wire Line
-	8550 4100 8700 4100
+	4700 3200 4300 3200
+Connection ~ 7250 4200
 Wire Wire Line
-	8700 4100 8700 4400
-Wire Wire Line
-	8700 4400 8850 4400
-Wire Wire Line
-	9200 4000 9150 4000
-Wire Wire Line
-	9150 4000 9150 3950
-Connection ~ 8550 3450
-Wire Wire Line
-	8550 3100 8550 3550
-Connection ~ 3900 5850
-Connection ~ 3500 6150
-Connection ~ 3200 6150
-Wire Wire Line
-	2900 5550 3900 5550
-Wire Wire Line
-	3500 5750 3900 5750
-Wire Wire Line
-	5850 6150 5850 6000
-Wire Wire Line
-	3900 5350 3900 5100
-Wire Wire Line
-	3900 6400 3900 5850
-Wire Wire Line
-	5200 5450 5350 5450
-Wire Wire Line
-	1500 1000 1800 1000
-Wire Wire Line
-	1800 1500 1800 1750
-Wire Wire Line
-	1800 1750 1200 1750
-Wire Wire Line
-	1200 1500 1500 1500
-Wire Wire Line
-	1800 1000 1800 800 
-Wire Wire Line
-	5350 5350 5200 5350
-Wire Wire Line
-	2900 6150 3900 6150
-Connection ~ 3900 5950
-Connection ~ 3900 6150
-Connection ~ 2900 6150
-Wire Wire Line
-	3200 5750 3200 5650
-Wire Wire Line
-	3200 5650 3900 5650
-Wire Wire Line
-	8550 3550 9150 3550
+	7250 4100 7250 4350
 Wire Wire Line
 	8550 4000 8850 4000
 Wire Wire Line
-	7250 4350 7250 4100
-Connection ~ 7250 4200
+	9150 3550 8550 3550
 Wire Wire Line
-	4300 3200 4700 3200
+	3900 5650 3200 5650
 Wire Wire Line
-	4700 3200 4700 4000
-Connection ~ 2750 3850
+	3200 5650 3200 5750
+Connection ~ 2900 6150
+Connection ~ 3900 6150
+Connection ~ 3900 5950
 Wire Wire Line
-	4300 2850 4300 2450
+	2900 6150 3900 6150
 Wire Wire Line
-	2250 3050 2250 3150
-Connection ~ 2250 3150
+	5350 5350 5200 5350
 Wire Wire Line
-	7250 3950 6950 3950
-Connection ~ 6950 4350
+	1800 800  1800 1000
 Wire Wire Line
-	2400 3550 2100 3550
-Connection ~ 8550 3350
+	1200 1500 1500 1500
 Wire Wire Line
-	2750 4200 2750 3650
-Connection ~ 2750 3750
+	1200 1750 1800 1750
 Wire Wire Line
-	2900 5750 2900 5400
-Connection ~ 2900 5550
+	1800 1750 1800 1500
+Wire Wire Line
+	1800 1000 1500 1000
+Wire Wire Line
+	5200 5450 5350 5450
+Wire Wire Line
+	3900 6400 3900 5850
+Wire Wire Line
+	3900 5350 3900 5100
+Wire Wire Line
+	5850 6150 5850 6000
+Wire Wire Line
+	3500 5750 3900 5750
+Wire Wire Line
+	2900 5550 3900 5550
+Connection ~ 3200 6150
+Connection ~ 3500 6150
+Connection ~ 3900 5850
+Wire Wire Line
+	8550 3550 8550 3100
+Connection ~ 8550 3450
+Wire Wire Line
+	9150 3950 9150 4000
+Wire Wire Line
+	9150 4000 9200 4000
+Wire Wire Line
+	8850 4400 8700 4400
+Wire Wire Line
+	8700 4400 8700 4100
+Wire Wire Line
+	8700 4100 8550 4100
+Wire Wire Line
+	6950 4600 6950 4350
+Wire Wire Line
+	2100 3150 2400 3150
+Wire Wire Line
+	6950 4350 7250 4350
+Wire Wire Line
+	2250 3650 2250 3550
+Connection ~ 2250 3550
+Wire Wire Line
+	5850 5600 5850 5500
+Wire Wire Line
+	5200 5850 5200 6250
+Connection ~ 5200 5950
+Wire Wire Line
+	2750 2600 2750 2950
+Connection ~ 2750 2850
 NoConn ~ 5200 5750
 NoConn ~ 4300 3100
 NoConn ~ 2750 3350
