@@ -1,6 +1,7 @@
-=========
-Crazybird
-=========
+===============
+Expansion Board
+===============
+
 
 ----------------------------
 Research Quadcopter Platform
