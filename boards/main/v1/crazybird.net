@@ -1,0 +1,109 @@
+# EESchema Netlist Version 1.1 created  Fri 03 Apr 2015 10:45:56 PM PHT
+(
+ ( /551DC7B4/551E0903 SM0402 C1 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /551DC7B4/551E090B SM0402 C2 10nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /551DC7B4/551E6A1D SM0402 C3 2.2.nF_50V
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /551DC7B4/551E6A20 SM0402 C4 0.1uF
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /551DC7B4/551E73D7 SM0402 GS1 GS2
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /551DC7B4/551E72B4 SM0402 GS2 GS2
+  ( 1 /Sensors/CLKIN )
+  ( 2 GND )
+ )
+ ( /551DC7B4/551E72CD SM0402 GS3 GS2
+  ( 1 /Sensors/FSYNC )
+  ( 2 GND )
+ )
+ ( /551DC7B4/551E6C85 $noname$ JP1 M11PTH
+  ( 1 /Sensors/INT )
+  ( 2 /Sensors/FSYNC )
+  ( 3 GND )
+  ( 4 /Sensors/CLKIN )
+  ( 5 /Sensors/CLKOUT )
+  ( 6 /Sensors/ESC )
+  ( 7 /Sensors/ESD )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 VCC )
+  ( 11 GND )
+ )
+ ( /551DC7B4/551E08A3 SM0402 R1 10k
+  ( 1 VCC )
+  ( 2 N-000010 )
+ )
+ ( /551DC7B4/551E08AD SM0402 R2 10K
+  ( 1 VCC )
+  ( 2 N-000009 )
+ )
+ ( /551DC7B4/551E085A QFN24 U4 MPU-9150
+  ( 1 /Sensors/CLKIN )
+  ( 3 VCC )
+  ( 6 /Sensors/ESD )
+  ( 7 /Sensors/ESC )
+  ( 8 VCC )
+  ( 9 GND )
+  ( 10 N-000001 )
+  ( 11 /Sensors/FSYNC )
+  ( 12 /Sensors/INT )
+  ( 13 VCC )
+  ( 15 GND )
+  ( 17 GND )
+  ( 18 GND )
+  ( 20 N-000011 )
+  ( 22 /Sensors/CLKOUT )
+  ( 23 N-000009 )
+  ( 24 N-000010 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

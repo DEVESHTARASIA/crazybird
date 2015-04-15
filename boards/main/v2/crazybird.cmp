@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 03 Apr 2015 10:45:56 PM PHT
+
+BeginCmp
+TimeStamp = /551DC7B4/551E0903;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E090B;
+Reference = C2;
+ValeurCmp = 10nF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E6A1D;
+Reference = C3;
+ValeurCmp = 2.2.nF_50V;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E6A20;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E73D7;
+Reference = GS1;
+ValeurCmp = GS2;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E72B4;
+Reference = GS2;
+ValeurCmp = GS2;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E72CD;
+Reference = GS3;
+ValeurCmp = GS2;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E6C85;
+Reference = JP1;
+ValeurCmp = M11PTH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E08A3;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E08AD;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DC7B4/551E085A;
+Reference = U4;
+ValeurCmp = MPU-9150;
+IdModule  = QFN24;
+EndCmp
+
+EndListe
