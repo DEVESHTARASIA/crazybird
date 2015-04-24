@@ -49,7 +49,7 @@ Requirements
 
 
 Documentation
-------------
+-------------
 
 You can find the crazybird documentation here: [Crazybrid Docs](http://crazybird.readthedocs.org/en/latest/)
 
