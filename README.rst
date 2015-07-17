@@ -21,20 +21,7 @@ Maintainers
 Contributors
 ------------
 
-  * Grethel
-  * Jon Ray
-  * Yves Christian Auxtero
-  * Marcos Ayop Jr.
-  * Christophe JC Lamotte
-  * Philip Aton Jr.
-  * Andre Nino Dopeno
-  * Gerisse Marie Marmito
-  * Matt Yrseth Marmito
-  * Darnel Gil John Escabarte
-  * Al Bryan Jusoy
-  * Josh Jahren Allego
-  * Joseph Louis Quimpang
-  * Joemark Desponte
+  * Tom Lee   <tom@cybint.io>
 
 
 
