@@ -6,7 +6,7 @@ Crazybird
 Research Quadcopter Platform
 ----------------------------
 
-After watching a TED talks show by Raffaello D'Andrea, We decided to embark on a quest to build the most  advanced open hardware quadcopter platform for research and development. 
+After watching a TED talks show by Raffaello D'Andrea, I decided to embark on a quest to build the most  advanced open hardware quadcopter platform for research and development.
 
 
 
